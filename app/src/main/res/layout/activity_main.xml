@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ejemplo1.MainActivity">
     <Spinner
         android:id="@+id/mispinner"
         android:entries="@array/tipo"
@@ -15,7 +15,7 @@
         android:id="@+id/mifragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.ditec.miparte2fragmentosfin.GridFragmento"
+        android:name="com.ditec.miparte2fragmentosfin.ejemplo1.GridFragmento"
         />-->
     <FrameLayout
         android:id="@+id/fragmento"
